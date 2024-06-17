@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>体育館自動点検装置 - 詳細</title>
+    <link rel="stylesheet" href="css/detail2.css">
+    <!-- Googleの日本語フォント適用 -->
+    <link
+     href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+     rel="stylesheet"
+    />
+    <!-- フリーアイコンの適用 -->
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">Port<span>Folio</span></h2>
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="index.html#portfolio">ポートフォリオ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Project Detail -->
+    <section class="project-detail">
+        <div class="container">
+            <h1>体育館自動点検装置</h1>
+            <img src="../img/gymbot/gymbot.png" alt="体育館自動点検装置">
+            <p></p>
+            <p>　体育館のフローリングの傷を自動で検出する装置を開発。従来の目視検査の課題であった人的・時間的負担や検査精度のバラつき問題を解決し、効率的で均一な点検を実現。</p>
+            <p></p>
+            <h2>プロジェクトの詳細</h2>
+            <p>　近年、体育館の床から剥離した床材による負傷事故が報告されており、重症例では剥離した床材が臓器にまで達する事例もある。消費者安全委員会の調査によると、平成18年から平成27年までの間に7件発生していた。しかし、体育館床面の定期点検を実施している施設は学校で70%、公共体育施設で38%と十分ではない。その主な原因として、既存の点検方法が目視による人海戦術であり、人的・時間的コストが大きいことが挙げられる。また、検査員の裁量に依存するため、点検品質にばらつきが生じるという問題もある。</p>
+            <p></p>
+            <p>　このプロジェクトは、これらの問題を解決するために設計された。自律走行と自己位置推定機能を備えたロボットに、傷を自動検出するシステムを搭載することで、人的負担を軽減し、効率的かつ均一な点検が可能となった。自動化されたシステムは、目視検査に比べて高い精度と信頼性を提供し、体育館の安全性向上に寄与している。</p>
+
+            <p>使用した技術：C++, Python, 3DCAD, 基板設計, SLAM, 機械学習, Jetson</p>
+
+            <!-- Gallery Section -->
+            <div class="gallery">
+                <h2>ギャラリー</h2>
+                <div class="gallery-content">
+                    <img src="../img/gymbot/scratches.png" alt="傷の種類">
+                    <img src="../img/gymbot/background.png" alt="背景">
+                    <img src="../img/gymbot/gymbot_system.png" alt="gymbot">
+                    <img src="../img/gymbot/inspection_result.png" alt="検査結果">
+                    <video controls>
+                        <source src="../videos/gymbot_demo.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグに対応していません。
+                    </video>
+                    <video controls>
+                        <source src="../videos/gymbot_navigation_demo.mp4" type="video/mp4">
+                        お使いのブラウザは動画タグに対応していません。
+                    </video>
+                </div>
+            </div>
+
+            <a href="index.html#portfolio" class="btn2">戻る</a>
+        </div>
+    </section>
+</body>
+</html>

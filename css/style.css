@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Sawarabi Mincho", serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: "Sawarabi Mincho", serif;
+}
+
+.hero {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    color: #007acc;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+}
+
+.logo {
+    color: #333;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007acc;
+}
+
+.about {
+    width: 100%;
+    padding: 100px 0;
+    background-color: #ffffff;
+}
+
+.about img {
+    width: 430px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-text {
+    width: 550px;
+    color: #333;
+}
+
+.main {
+    width: 1130px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #007acc;
+}
+
+.about-text h5 {
+    letter-spacing: 1px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.about-text p {
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #007acc;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    border: 2px solid #005f99;
+    background-color: transparent;
+    color: #005f99;
+    cursor: pointer;
+}
+
+.portfolio {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 100px 0;
+}
+
+.title h2 {
+    color: #007acc;
+    font-size: 45px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 500px;
+    width: 365px;
+    padding: 20px 35px;
+    margin: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h5 {
+    color: #333;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.paragraph p {
+    color: #555;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    background-color: #007acc;
+    padding: 13px 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.btn2:hover {
+    border: 2px solid #005f99;
+    background-color: transparent;
+    color: #005f99;
+    cursor: pointer;
+}
+
+.end {
+    color: #333;
+    font-size: 16px;
+}
