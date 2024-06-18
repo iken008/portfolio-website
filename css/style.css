@@ -245,9 +245,10 @@ nav ul li a:hover {
     }
     .box {
         flex-direction: column;
+        min-height: none;
     }
     .card {
-        width: 60%; /* カードの幅を縮小 */
+        width: 70%; /* カードの幅を縮小 */
     }
     
 }
