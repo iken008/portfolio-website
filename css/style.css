@@ -237,7 +237,7 @@ nav ul li a:hover {
     }
     .about img {
         width: 60%;
-        max-width: 200px;
+        max-width: 300px;
         margin: 0 auto 20px auto;
     }
     .about-text {
@@ -247,7 +247,7 @@ nav ul li a:hover {
         flex-direction: column;
     }
     .card {
-        width: 80%; /* カードの幅を縮小 */
+        width: 60%; /* カードの幅を縮小 */
     }
     
 }
