@@ -11,6 +11,17 @@ body {
     font-family: "Sawarabi Mincho", serif;
 }
 
+.hero {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+span {
+    color: #007acc;
+}
+
 nav {
     display: flex;
     align-items: center;
