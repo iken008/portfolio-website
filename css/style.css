@@ -67,11 +67,13 @@ nav ul li a:hover {
     max-width: 430px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .about-text {
     width: 100%;
-    max-width: 550px;
+    max-width: 450px;
     color: #333;
 }
 
@@ -224,9 +226,9 @@ nav ul li a:hover {
         padding: 20px;
     }
     .about img {
-        width: 80%;
+        width: 70%;
         max-width: 300px;
-        margin-bottom: 20px;
+        margin: 0 auto 20px auto;
     }
     .about-text h5 {
         text-align: center;
