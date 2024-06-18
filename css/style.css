@@ -156,6 +156,9 @@ nav ul li a:hover {
     background-color: #f9f9f9;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card:hover {
@@ -165,7 +168,7 @@ nav ul li a:hover {
 .card img {
     width: 100%;
     height: auto;
-    max-height: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -226,11 +229,11 @@ nav ul li a:hover {
         padding: 20px;
     }
     .about img {
-        width: 70%;
+        width: 60%;
         max-width: 300px;
         margin: 0 auto 20px auto;
     }
-    .about-text h5 {
+    .about-text {
         text-align: center;
     }
     .box {
